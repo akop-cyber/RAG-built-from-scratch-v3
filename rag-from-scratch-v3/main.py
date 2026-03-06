@@ -11,7 +11,7 @@ torch.cuda.empty_cache()
 
 os.environ["PYTORCH_CUDA_ALLOC_CONF"] = "expandable_segments:True"
 
-text = Loader("nazi.pdf")
+text = Loader("Nazism_and_the_Rise_of_Hitler.pdf") #you can add your own filepath here
 text_ = text.load()
 chunk = Chunker()
 chunks = chunk.chunker(text_)
@@ -94,4 +94,5 @@ while True:
         "role":"assistant",
         "content":f"{fa}"
     })
+
     print(f"model says: {fa}")
