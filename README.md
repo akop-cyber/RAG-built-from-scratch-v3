@@ -380,3 +380,5 @@ Potential extensions include:
 **Student | AI & Machine Learning Enthusiast**
 
 This project was developed independently to understand Retrieval-Augmented Generation systems at the architectural level, rather than through framework-driven abstraction.
+
+THIS README IS PARTIALLY OR WHOLELLY DIGITALLY GENERATED
