@@ -6,6 +6,8 @@ from retriever import Retriever
 from cleaner import clean_text
 import PyPDF2
 from sklearn.metrics.pairwise import cosine_similarity
+from transformers import AutoModelForCausalLM, AutoTokenizer, BitsAndBytesConfig
+import torch
 gc.collect()
 torch.cuda.empty_cache()
 
